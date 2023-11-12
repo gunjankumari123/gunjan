@@ -1,0 +1,329 @@
+<html>
+	<head>
+		<title>welcome</title>
+		<style type="text/css">
+			body{
+				
+
+				}
+				#mainarea{
+					width:1200px;
+					height:1500px;
+					background:orange;
+					margin:0 auto;
+				}
+				#toparea{
+					width:1200px;
+					height:150px;
+					background:blue;
+				}
+				#logoarea{
+					width:150px;
+					height:150px;
+					background:green;
+					float:left;
+				}
+				#titlearea{
+					width:1050px;
+					height:150px;
+					background:red;
+					float:left;
+				}
+				#menuarea{
+					width:1200px;
+					height:40px;
+					background:black;
+					
+				}
+				#menuarea ul{
+					list-style:none;
+					margin:0;
+					padding:0;
+						
+					}
+					#menuarea ul li{
+						float:left;
+				}
+				#menuarea ul li a:link,#menuarea ul li a:visited{
+						color:red;
+						background:yellow;
+						text-decoration:none;
+						padding:10px 25px;
+						display:block;
+						border-right:solid 1px grey;
+					
+				}
+				#menuarea ul li a:hover{
+							color:black;
+							background:pink;
+							
+				}
+				#menuarea ul li ul{
+							display:none;
+				}
+				#menuarea ul li:hover ul{
+								display:block;
+								position:absolute;
+								z-index:1000;
+				}
+				#menuarea ul li:hover ul li{
+									float:none;
+				}
+				#menuarea ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+								border:none;
+								border-bottom:solid 1px red;
+				}
+				#menuarea ul li:last-child a:link,#menuarea ul li:last-child a:visited{
+								border:none;
+				}
+
+								
+				
+				#slidearea{
+					width:1000px;
+					height:200px;
+					background:pink;
+					float:left;
+					padding-left:100px;
+					padding-right:100px;
+					padding-top:50px;
+					padding-bottom:50px;
+					/*background-image:linear-gradient(red,yellow);*/
+					/*background-image:linear-gradient(to bottom left,red 0%,yellow 20%,green 100%);*/
+					repeating-linear-gradient(to right,red,yellow);
+
+
+				}
+				
+
+				#slidearea a:link, #slidearea a:visited{
+						color:black;
+						text-decoration:none;
+						padding:10px 25px;
+						background:yellow;
+						}
+				#slidearea a:hover{
+						color:red;
+						text-decoration:underline;
+						background:blue;
+						border-radius:10px;
+
+						}
+			
+				
+				
+				
+				#slide1area{
+					width:1000px;
+					height:200px;
+					background:black;
+					
+					
+					
+				}
+				#slidearea p{
+					color:red;
+				}
+				/*#slidearea p:first-child{
+					color:green;
+				#slidearea p:first-child{
+					color:green;*/
+				#slidearea p:nth-child(3){
+					color:green;
+				}
+				
+				
+				#doreaarea{
+					width:1200px;
+					height:300px;
+					background:purple;
+					float:left;
+				}
+				
+				.d11{
+				
+					width:500px;
+					height:200px;
+					float:left;
+					margin:50px;
+
+				}
+				.bg1{
+					background:black;
+				}
+				.bg2{
+					background:red;
+				}
+				
+				
+				#boxarea{
+					width:1200px;
+					height:300px;
+					background:blue;
+					float:left;
+				}
+
+				
+				.box{
+					width:100px;
+					height:0;
+					float:left;
+					margin:50px;
+					border-top:solid 50px black;
+					border-bottom:solid 50px blue;
+					border-left:solid 50px transparent;
+					border-right:solid 50px transparent;
+					}
+				
+				#forterarea{
+					width:1200px;
+					height:410px;
+					background:green;
+				}
+				#forter1area{
+					width:300px;
+					height:410px;
+					background:white;
+					float:left;
+				}
+				#forter1area ul{
+					/*list-style-type:none;
+					list-style-image:url('https://mpsckp.com/images/arr.png');
+					list-style-position:inside;*/
+					list-style:none inside;
+
+					}
+				#forter2area{
+					width:300px;
+					height:410px;
+					background:red;
+					float:left;
+				}
+				#forter2area ul{ 
+					list-style:none;
+					margin:0;
+					padding:0;
+					font-size:120%
+				}
+				#forter2area ul li{
+						color:white;
+						}
+				#forter2area ul li:hover{
+						color:pink;
+						}
+				#forter3area{
+					width:300px;
+					height:410px;
+					background:purple;
+					float:left;
+				}
+				#forter3area ul{
+					list-style:none;
+					margin:0;
+					padding:0;
+						
+					}
+				#forter3area ul li a:link,#forter3area ul li a:visited{
+						color:red;
+						background:yellow;
+						text-decoration:none;
+						padding:10px 25px;
+						display:block;
+						border-bottom:solid 1px black;
+					
+					}
+				#forter3area ul li a:hover{
+							color:black;
+							background:pink;
+							
+						}
+				#forter4area{
+					width:300px;
+					height:410px;
+					background:black;
+					float:right;
+				}
+		</style>
+	</head>
+	<body style="background-color:blue; margin:0;">
+		<div id="mainarea">
+			<div id="toparea">
+				<div id="logoarea"></div>
+				<div id="titlearea"></div>
+			</div>
+			<div id="menuarea">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">GALLERY</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">PRODUCTS</a>
+						<ul>
+							<li><a href="#">PRODUCT1</a></li>
+							<li><a href="#">PRODUCT2</a></li>
+							<li><a href="#">PRODUCT3</a></li>
+						</ul>
+					</li>
+				</ul>
+
+
+							
+			</div>
+			<div id="slidearea">
+
+				
+
+
+
+
+				
+			</div>
+			
+			<div id="doreaarea">
+				<div class="d11 bg1">
+				</div>
+				<div class="d11 bg2">
+				</div>
+			</div>
+			<div id="boxarea">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+
+			<div id="forterarea">
+				<div id="forter1area">
+					<ul>
+						<li>HOME</li>
+						<li>ABOUT</li>
+						<li>GALLERY</li>
+						<li>CONTACT</li>
+					</ul>
+
+				</div>
+				<div id="forter2area">
+						<ul>
+							<li>HOME</li>
+							<li>ABOUT</li>
+							<li>GALLERY</li>
+							<li>CONTACT</li>
+						</ul>
+				</div>
+				<div id="forter3area">
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">GALLERY</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+				</div>
+				<div id="forter4area"></div>
+			</div>
+
+			
+
+		</div>
+		
+	</body>
+		
+</html>
